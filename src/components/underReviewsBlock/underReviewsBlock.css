@@ -1,0 +1,7 @@
+.under-reviews-container {
+  display: flex;
+  justify-self: center;
+  height: 468px;
+  border-radius: 30px;
+  margin-bottom: 148px;
+}

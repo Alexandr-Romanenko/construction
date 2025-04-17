@@ -1,0 +1,23 @@
+.intermidiate-container {
+  height: 486px;
+  border-radius: 30px;
+  background-image: url("../../img/pictures/additional_pict.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  margin-bottom: 148px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.text-block {
+  width: 1104px;
+  height: 118px;
+}
+
+.intermidiate-text {
+  font-size: 16px;
+  line-height: 21.76px;
+  letter-spacing: calc(1em / 10);
+}

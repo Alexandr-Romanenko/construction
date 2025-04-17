@@ -1,0 +1,168 @@
+.contacts-container {
+  background-image: url("../../img/pictures/contacts_pict.png");
+  height: 644px;
+  margin-bottom: 140px;
+}
+
+.section-title.contact-us-header {
+  justify-self: center;
+  color: var(--primery-color);
+  padding-top: 48px;
+  padding-bottom: 30px;
+}
+
+.contacts-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+/* Left side */
+
+.contacts-block {
+  width: 542px;
+}
+
+.contact-header {
+  font-size: 16px;
+  padding-top: 8px;
+  padding-left: 28px;
+  color: var(--secondary-color);
+}
+
+.contact-addsress {
+  width: 542px;
+  height: 83px;
+  padding-top: 7px;
+  margin-bottom: 21px;
+  background-color: var(--primery-color);
+  color: var(--secondary-color);
+  border-radius: 30px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+  width: 542px;
+}
+
+.contact-address__link {
+  padding-left: 28px;
+}
+
+.contact-social-media {
+  width: 288px;
+  height: 104px;
+  margin-bottom: 21px;
+  justify-content: space-between;
+  background-color: var(--primery-color);
+  color: var(--secondary-color);
+  border-radius: 30px;
+}
+
+.contact-social-media__list {
+  width: 164px;
+  height: 24px;
+  margin-left: 28px;
+}
+
+.contact-tel-email {
+  width: 237px;
+  height: 104px;
+  border-radius: 30px;
+  background-color: var(--primery-color);
+}
+
+.contact-tel {
+  padding-left: 29px;
+  padding-bottom: 6px;
+}
+
+.contact-email {
+  padding-left: 29px;
+}
+
+.contact-google-map {
+  width: 542px;
+  height: 212px;
+  border-radius: 20px;
+  filter: grayscale(100%);
+}
+
+/* FORM*/
+.contact-form-block {
+  width: 495px;
+  height: 441px;
+  border-radius: 30px;
+  background-color: var(--primery-color);
+}
+
+/*
+.form-header {
+  margin: 30px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--secondary-color);
+}
+
+.contact-form {
+  width: 435px;
+  margin: 0 auto;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-input {
+  padding-top: 13px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.form-input.contact-fild {
+  width: 435px;
+  height: 40px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  border: 0.4px solid var(--secondary-color);
+  background-color: var(--primery-color);
+}
+
+.form-input.issue-fild {
+  width: 435px;
+  height: 93px;
+  margin-bottom: 40px;
+  padding-top: 66px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  border: 0.4px solid var(--secondary-color);
+  background-color: var(--primery-color);
+}
+
+.btn-submit-form {
+  width: 435px;
+  height: 51px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: calc(1em / 10);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--primery-color);
+  background-color: var(--secondary-color);
+}
+
+.btn-submit-form:hover {
+  cursor: pointer;
+}
+
+*/

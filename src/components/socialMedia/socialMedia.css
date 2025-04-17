@@ -1,0 +1,9 @@
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media__item {
+  height: 28px;
+  width: 28px;
+}

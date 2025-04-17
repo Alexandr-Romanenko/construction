@@ -1,0 +1,48 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.about-text-section {
+  width: 522px;
+}
+
+.section-title.about-header {
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+.about-box {
+  height: 228px;
+}
+
+.about-text {
+  line-height: 1.4;
+  letter-spacing: calc(1em / 10);
+}
+
+.btn-about {
+  margin-top: 57px;
+  flex-basis: 217px;
+  height: 51px;
+  padding: 12px 40px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: calc(1em / 10);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--secondary-color);
+  background-color: var(--primery-color);
+}
+
+.btn-about:hover {
+  cursor: pointer;
+}
+
+.img-block {
+  width: 630px;
+  height: 420px;
+  border-radius: 20px;
+}

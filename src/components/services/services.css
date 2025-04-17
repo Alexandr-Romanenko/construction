@@ -1,0 +1,16 @@
+.services-container {
+  margin-bottom: 163px;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-box {
+  width: 600px;
+  height: 38px;
+}
+.text-achievement {
+  text-align: right;
+}

@@ -1,0 +1,61 @@
+/* FORM*/
+.back-call-form {
+  width: 495px;
+  height: 220px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: var(--primery-color);
+}
+
+.form-back-call-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-input {
+  padding-top: 13px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.form-input.contact-fild {
+  width: 435px;
+  height: 40px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  border: 0.4px solid var(--secondary-color);
+  background-color: var(--primery-color);
+}
+
+.btn-submit-form {
+  width: 435px;
+  height: 51px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: "Diether", sans-serif;
+  letter-spacing: calc(1em / 10);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--primery-color);
+  background-color: var(--secondary-color);
+}
+
+.btn-submit-form:hover {
+  cursor: pointer;
+}
+
+.success-message {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: var(--secondary-color);
+}
+
+.btn-submit-form:disabled {
+  pointer-events: none;
+}

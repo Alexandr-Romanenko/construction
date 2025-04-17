@@ -1,0 +1,27 @@
+/* delete all this styles */
+.button-primery {
+  border: 1px solid #f2f0eb;
+  border-radius: 20px;
+  background-color: #0f1a2e;
+  color: #f2f0eb;
+  cursor: pointer;
+}
+
+.button-primery:hover {
+  border: 1px solid #0f1a2e;
+  border-radius: 20px;
+  background-color: #f2f0eb;
+  color: #0f1a2e;
+}
+
+.button-secondary {
+  border-radius: 20px;
+  background-color: #f2f0eb;
+  color: #0f1a2e;
+}
+
+.button-secondary:hover {
+  border-radius: 20px;
+  background-color: #0f1a2e;
+  color: #f2f0eb;
+}

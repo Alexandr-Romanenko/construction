@@ -1,0 +1,60 @@
+.slider-card-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-item {
+  width: 413px;
+  height: 196px;
+  padding-top: 27px;
+  border-top: 1px solid #000000;
+}
+
+.review-item-img {
+  width: 164px;
+  height: 20px;
+  padding-left: 16px;
+}
+
+.review-item-text {
+  padding-left: 16px;
+  font-size: 12px;
+}
+
+.review-item-sign {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+  padding-left: 16px;
+}
+
+.review-item-initials {
+  font-size: 12px;
+}
+
+/* slider */
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.slider-track {
+  position: relative;
+  width: 542px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+.slider-handle {
+  position: absolute;
+  width: 170px;
+  height: 2px;
+  background-color: #fff;
+  cursor: grab;
+  top: 1px;
+  transition: transform 0.1s linear;
+}

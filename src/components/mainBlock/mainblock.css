@@ -1,0 +1,72 @@
+.main-block-container {
+  margin-bottom: 140px;
+}
+
+.main-block-header {
+  margin-bottom: 0;
+  padding: 56px 0 22px;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+
+  letter-spacing: calc(1em / 10);
+}
+
+.main-section-img {
+  background-image: url("../../img/pictures/main_pict.png");
+  height: 664px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  text-align: center;
+}
+
+.main-section-text {
+  margin: 0 auto;
+  width: 1064px;
+  height: 54px;
+  padding-top: 244px;
+  color: var(--primery-color);
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: calc(1em / 10);
+}
+
+.btn.btn-mainblock {
+  margin: 0 auto;
+  margin-top: 92px;
+  width: 330px;
+  height: 51px;
+  border: 0;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--secondary-color);
+  background-color: var(--primery-color);
+}
+
+/* Modal */
+.modal.modal-form-discussion {
+  width: 550px;
+  height: 480px;
+}
+
+.btn.btn-close-modal {
+  float: right;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--secondary-color);
+  border: none;
+}
+
+.modal-header {
+  margin: 30px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--secondary-color);
+}

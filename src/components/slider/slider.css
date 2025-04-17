@@ -1,0 +1,24 @@
+.slider-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.slider-track {
+  position: relative;
+  width: 542px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+.slider-handle {
+  position: absolute;
+  width: 170px;
+  height: 2px;
+  background-color: #fff;
+  cursor: grab;
+  top: 1px;
+  transition: transform 0.1s linear;
+}

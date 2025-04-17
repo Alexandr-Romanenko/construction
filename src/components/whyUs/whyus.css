@@ -1,0 +1,40 @@
+.why-container {
+  height: 308px;
+  margin-bottom: 140px;
+}
+
+.section-title.why-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.why-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 305px;
+  height: 135px;
+  border-radius: 15px;
+}
+
+.card-header {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: calc(1em / 10);
+}
+
+.card-text {
+  line-height: 19.04px;
+  letter-spacing: calc(1em / 10);
+}
+
+.card-img {
+  padding: 12px 17px 12px 0;
+  max-width: 64px;
+  max-height: 64px;
+}
